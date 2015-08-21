@@ -11,6 +11,22 @@ body {
   padding-bottom: 20px;
 }
 
+.blame-image {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+}
+
+.blame-image.graph {
+  margin-left: -100px;
+}
+
+.blame-image.arrow {
+  width: 150px;
+  margin-left: -75px;
+  margin-top: 123px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
